@@ -1,0 +1,10 @@
+function checkEvenOrOdd(number) {
+  if (number % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+
+console.log(checkEvenOrOdd(3));  // "Odd"
+console.log(checkEvenOrOdd(10)); // "Even"
