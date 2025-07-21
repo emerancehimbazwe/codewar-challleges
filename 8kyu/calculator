@@ -13,7 +13,7 @@ function calculator(a, b, operation) {
     case '*':
       return a * b;
     case '/':
-      return b !== 0 ? a / b : "unknown value";
+      return a / b; // allow division by zero (returns Infinity)
     default:
       return "unknown value";
   }
